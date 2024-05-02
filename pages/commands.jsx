@@ -3,32 +3,32 @@ import Link from "next/link";
 
 export default function Commands() {
 const commands = [
-  "/autoplay",
-  "/back",
-  "/statistic",
-  "/channel",
-  "/clear",
-  "/dj",
-  "/filter",
-  "/help",
-  "/language",
-  "/loop",
-  "/nowplaying",
-  "/pause",
+  "/kiss",
+  "/nitro",
+  "/destek",
+  "/vatmak",
+  "/sil",
+  "/helpcybot",
+  "/yasak",
+  "/unmute",
+  "/uyarılar",
+  "/rapor",
+  "/tekmele",
+  "/rolver",
   "/ping",
-  "/play",
-  "/playlist",
-  "/queue",
-  "/resume",
-  "/save",
-  "/search",
-  "/seek",
-  "/servers",
-  "/shuffle",
-  "/skip",
-  "/stop",
-  "/time",
-  "/volume"
+  "/yumuşak-yasak",
+  "/zamanasiminikaldir",
+  "/sağır",
+  "/taşı",
+  "/sesini-kapat",
+  "/yasak-kaldır",
+  "/vsesssiz",
+  "/yavaşmod",
+  "/sağır-olmayan",
+  "/avatar",
+  "/söyle",
+  "/rolükaldır",
+  "/invite"
 ];
 
   return (
@@ -42,7 +42,7 @@ const commands = [
          Bot Commands
         </p>
         <p className="text-white text-sm text-opacity-50 mb-5">
-        You can get information about the commands of the MusicMaker Bot.
+        You can get information about the commands of the cybot.
         </p>
 
         <div>
@@ -103,9 +103,10 @@ Support Server</a>
 
   <div className="py-10"></div>
   
-  <Link href={"https://top.gg/bot/774043716797071371/vote"}>
+  <Link href={"https://discord.com/oauth2/authorize?client_id=1233521387142905896
+/vote"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Vote MusicMaker</a>
+Vote cybot</a>
   </Link>
 </div>
 
