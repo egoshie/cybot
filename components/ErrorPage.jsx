@@ -31,3 +31,4 @@ const ErrorPage = ({ code, message }) => {
 }
 
 export default ErrorPage;
+hata sayfa bulunamadı
