@@ -8,7 +8,7 @@ const ErrorPage = ({ code, message }) => {
     
     return <>
         <Head>
-            <title>{code} | MusicMaker</title>
+            <title>{code} | cybot</title>
         </Head>
 
         <div className="max-w-7xl text-center py-20 mx-auto">
@@ -31,4 +31,4 @@ const ErrorPage = ({ code, message }) => {
 }
 
 export default ErrorPage;
-hata sayfa bulunamadı
+hata sayfa bulunamadı :)
